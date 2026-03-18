@@ -1,0 +1,101 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Your Name</title>
+  <meta name="description" content="About Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper topbar">
+      <a href="index.html" class="brandmark" aria-label="Home"></a>
+      <a href="index.html" class="site-title">Your Name</a>
+      <a href="about.html" class="header-link">About</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav class="site-nav" id="site-nav">
+      <div class="wrapper">
+        <ul class="nav-links">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrapper">
+    <section class="page-intro">
+      <div class="eyebrow">About</div>
+      <h1>A little background</h1>
+      <p class="lead">
+        Replace this with a concise version of your professional background, what you care about,
+        and what ties together your work.
+      </p>
+    </section>
+
+    <section class="section section-line split">
+      <div class="stack">
+        <div>
+          <h2>Bio</h2>
+          <p>
+            I work across strategy, communication, operations, and civic life. Over time, I’ve built a career
+            around clarifying messy problems, communicating ideas clearly, and helping projects move from concept
+            to execution.
+          </p>
+          <p>
+            This site is part portfolio, part notebook, and part archive: a place to collect selected work,
+            visual experiments, and materials that don’t fit neatly on a résumé.
+          </p>
+        </div>
+
+        <div>
+          <h2>What I’m interested in</h2>
+          <div class="tag-list">
+            <span class="tag">Public life</span>
+            <span class="tag">Institution-building</span>
+            <span class="tag">Design</span>
+            <span class="tag">Leadership</span>
+            <span class="tag">Local issues</span>
+            <span class="tag">Creative practice</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="info-box stack">
+        <div>
+          <h3>Contact</h3>
+          <p><a href="mailto:you@example.com">you@example.com</a></p>
+          <p><a href="#">LinkedIn</a></p>
+          <p><a href="#">X / Twitter</a></p>
+        </div>
+
+        <div>
+          <h3>Résumé</h3>
+          <p class="muted">Later, add a PDF like <code>assets/resume.pdf</code>.</p>
+          <a class="button-secondary" href="#">Download résumé</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-row">
+      <div>© <span data-year></span> Your Name</div>
+      <div class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="art.html">Art</a>
+        <a href="archive.html">Archive</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
