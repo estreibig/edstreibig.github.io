@@ -1,0 +1,91 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art — Your Name</title>
+  <meta name="description" content="Art and visual work by Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper topbar">
+      <a href="index.html" class="brandmark" aria-label="Home"></a>
+      <a href="index.html" class="site-title">Your Name</a>
+      <a href="about.html" class="header-link">About</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav class="site-nav" id="site-nav">
+      <div class="wrapper">
+        <ul class="nav-links">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="active" href="art.html">Art</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrapper">
+    <section class="page-intro">
+      <div class="eyebrow">Art</div>
+      <h1>Visual work and experiments</h1>
+      <p class="lead">
+        This can be a gallery of finished pieces, sketches, photography, posters, or process studies.
+        For now, these are placeholder tiles so the page already looks complete.
+      </p>
+    </section>
+
+    <section class="section section-line">
+      <div class="gallery">
+        <div class="tile tile-1 span-7"></div>
+        <div class="tile tile-2 span-5"></div>
+        <div class="tile tile-3 span-4"></div>
+        <div class="tile tile-4 span-8"></div>
+        <div class="tile tile-5 span-6"></div>
+        <div class="tile tile-6 span-6"></div>
+      </div>
+    </section>
+
+    <section class="section section-line split">
+      <div>
+        <div class="eyebrow">Notes</div>
+        <h2>How to use this page</h2>
+        <p>
+          Later, we can swap these background blocks with real images and add captions, dates,
+          media, dimensions, or links to full project pages.
+        </p>
+      </div>
+
+      <aside class="info-box">
+        <h3>Possible categories</h3>
+        <div class="tag-list">
+          <span class="tag">Painting</span>
+          <span class="tag">Ink</span>
+          <span class="tag">Photography</span>
+          <span class="tag">Digital</span>
+          <span class="tag">Sketchbook</span>
+          <span class="tag">Posters</span>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-row">
+      <div>© <span data-year></span> Your Name</div>
+      <div class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="archive.html">Archive</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
