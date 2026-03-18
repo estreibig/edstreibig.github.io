@@ -1,0 +1,137 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <meta name="description" content="Projects, art, archive, and background for Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper topbar">
+      <a href="index.html" class="brandmark" aria-label="Home"></a>
+      <a href="index.html" class="site-title">Your Name</a>
+      <a href="about.html" class="header-link">About</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav class="site-nav" id="site-nav">
+      <div class="wrapper">
+        <ul class="nav-links">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrapper">
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow">Personal site</div>
+        <h1>Work, ideas, and things I’ve made.</h1>
+        <p class="lead">
+          I’m a strategist, builder, and civic-minded generalist. This site collects selected projects,
+          creative work, older writing, and a bit of background.
+        </p>
+        <div class="meta">
+          <span class="pill">Geneva, Illinois</span>
+          <span class="pill">Projects + writing + art</span>
+          <span class="pill">Updated regularly</span>
+        </div>
+        <div class="actions">
+          <a class="button" href="projects.html">View projects</a>
+          <a class="button-secondary" href="about.html">About me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-line">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Featured</div>
+          <h2>Start here</h2>
+        </div>
+      </div>
+
+      <div class="card-grid">
+        <a class="card" href="projects.html">
+          <div class="thumb thumb-1"></div>
+          <h3>Projects</h3>
+          <p>Selected professional, civic, and creative work with short summaries.</p>
+          <div class="card-meta">Case studies · initiatives · writing</div>
+        </a>
+
+        <a class="card" href="art.html">
+          <div class="thumb thumb-2"></div>
+          <h3>Art</h3>
+          <p>Visual experiments, sketches, finished pieces, photography, and process notes.</p>
+          <div class="card-meta">Gallery · studio work · image sets</div>
+        </a>
+
+        <a class="card" href="archive.html">
+          <div class="thumb thumb-3"></div>
+          <h3>Archive</h3>
+          <p>Older posts, talks, links, PDFs, media, and other material worth keeping around.</p>
+          <div class="card-meta">Notes · press · talks · documents</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section-line">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Latest</div>
+          <h2>From the archive</h2>
+        </div>
+        <a href="archive.html">View all →</a>
+      </div>
+
+      <div class="list">
+        <a class="archive-item" href="archive.html">
+          <div class="archive-date">Oct 2024</div>
+          <div>
+            <h3>On civic trust and practical leadership</h3>
+            <p>A short note on institution-building, local accountability, and what good public work looks like.</p>
+          </div>
+        </a>
+
+        <a class="archive-item" href="archive.html">
+          <div class="archive-date">Jun 2024</div>
+          <div>
+            <h3>Selected talks and panels</h3>
+            <p>Appearances, speaking topics, event links, and presentation summaries.</p>
+          </div>
+        </a>
+
+        <a class="archive-item" href="archive.html">
+          <div class="archive-date">Jan 2024</div>
+          <div>
+            <h3>Collected writing and references</h3>
+            <p>Essays, linked interviews, and a few older pieces still worth reading.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-row">
+      <div>© <span data-year></span> Your Name</div>
+      <div class="footer-links">
+        <a href="about.html">Contact</a>
+        <a href="projects.html">Projects</a>
+        <a href="archive.html">Archive</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
